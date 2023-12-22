@@ -1,0 +1,378 @@
+.project-form .project-form-pick-pictures
+{
+    display: none;
+}
+.e-notice 
+{
+    width: 100%;
+    padding: 1%;
+    font-size: small;
+    border-radius: 5px;
+    text-align: center;
+    color: #eee;
+    background-color: rgb(168, 35, 91);
+    font-weight: 100;
+}
+.e-success
+{
+    text-align: center;
+    color: #eee;
+    background-color: rgb(33, 173, 92);
+    width: 100%;
+    padding: 1%;
+    font-size: small;
+    border-radius: 5px;
+}
+.image-wrapper
+{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.image-wrapper .img-host
+{
+    display: inline-block;
+    width: 25%;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+}
+.image-wrapper .img-host
+{
+    width: 25%;
+    height: inherit;
+    border-radius: 10px;
+    margin-top: 3px;
+    margin: 5px;
+}
+.image-wrapper .img-host img
+{
+    border-radius: 10px;
+}
+.image-wrapper .img-host-btns 
+{
+    position: absolute;
+    top: 0%;
+    right: 2%;
+    padding: 2%;
+}
+.image-wrapper .img-host-btns a 
+{
+    margin: 5%;
+    background-color: black;
+    color: white;
+    padding: 15%;
+    border-radius: 125px;
+}
+.image-wrapper .img-host-btns a i 
+{
+    font-size: small;
+}
+.image-wrapper .img-host-btns a .fa-trash 
+{
+    margin-top: 60%;
+}
+.error-display 
+{
+    margin: 3% 0% 3% 0%;
+}
+.project-actions 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.project-actions-2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.project-task-title 
+{
+    text-transform: capitalize;
+}
+
+.old-discuss-owner, 
+.old-discuss .contributor-text,
+.old-discuss .contributor-timestamp
+{
+    text-align: right;
+}
+.even-discuss-owner, 
+.even-discuss .contributor-text,
+.even-discuss .contributor-timestamp
+{
+    text-align: left;
+    text-rendering: geometricPrecision;
+}
+.old-discuss-owner i, 
+.even-discuss-owner i 
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 125px;
+}
+.even-discuss-wrap 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.even-discuss 
+{
+    background-color: #039676;
+    width: 75%;
+}
+.odd-discuss-wrap 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.odd-discuss 
+{
+    background-color: #0e6ca3;
+    width: 75%;
+
+}
+.even-discuss ,.odd-discuss  
+{
+    margin: 5px;
+    padding: 3%;
+    border-radius: 20px;
+}
+.contributor-text 
+{
+    font-size: small;
+    line-height: 15px;
+}
+.contributor-name 
+{
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.contributor-timestamp 
+{
+    font-size: small;
+    padding-top: 5px;
+}
+.odd-discuss .contributor-timestamp,
+ .odd-discuss .contributor-text
+{
+    text-align: right;
+}
+.even-discuss .contributor-timestamp  
+{
+    text-align: left;
+}
+.discussion-section 
+{
+    position: relative;
+}
+.discussion-header 
+{
+    position: fixed;
+    top: 0%;
+    width: 80%;
+    background-color: rgb(0,45,102);
+}
+.discussion-content-wrap 
+{
+    position: relative;
+}
+.send-message-form 
+{
+    min-width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+.send-message-wrap,
+.send-message-form 
+{
+    width: 100%;
+}
+.send-message-form input 
+{
+    width: 100%;
+    background-color: #dddddd;
+    color: rgb(17, 17, 17);
+    border-radius: 5px;
+    border: 1px solid 211c53;
+    outline: none;
+    outline: none; 
+    height: 50px;
+    padding: 2%;
+}
+.wrap-input-btn 
+{
+    position: relative;
+}
+.wrap-input-btn button 
+{
+    position: absolute;
+    top: 20%;
+    right: 2%;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: small;
+}
+.wrap-input input[type="password"]
+{
+    color: white;
+}
+
+.tabs 
+{
+    display: flex;
+    flex-direction: row wrap;
+}
+.settings-tabs 
+{
+    display: flex;
+    flex-direction: row wrap;
+    
+}
+.tabs .tab 
+{
+    width: 50%;
+    background-color: #2c2c2c;
+    margin: 3px;
+    height: 200px;
+    color: rgb(86, 179, 255);
+    border-radius: 10px;
+}
+.settings-tabs .tab 
+{
+    width: 50%;
+    background-color: #1b1749;
+    margin: 3px;
+    height: 300px;
+    text-decoration: none;
+    color: rgb(86, 179, 255);
+}
+.tab .tab-header 
+{
+    text-align: center;
+    margin-top: 10%;
+}
+.tab .tab-header i 
+{
+    border-radius: 125px;
+    color: #ffffff;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+.tab-header .wrap-notice .fa-facebook 
+{
+    background-color:#3b5998;
+}
+.tab-header .fa-twitter 
+{
+    background-color: #00acee;
+}
+.tab-header .fa-instagram
+{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.tab-header .fa-telegram
+{
+    background-color:#0088cc;
+}
+.tab .tab-body 
+{
+    text-align: center;
+    color: white;
+}
+.tab .tab-body p 
+{
+    font-size: small;
+}
+.tab .tab-footer 
+{
+    text-align: center;
+}
+.tab .tab-footer i {
+    color: rgb(255, 255, 255);
+}
+.card-title 
+{
+    text-transform: capitalize;
+}
+.form-collection 
+{
+    font-size: small;
+}
+.form-collection 
+{
+    margin-top: 5%;
+}
+.cool-forms i 
+{
+    border: 2px solid green;
+    padding: 3%;
+    border-radius: 125px;
+}
+.cool-form-checkbox 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.cooler-login-forms form 
+{
+    font-size: smaller;
+}
+.dbd-username 
+{
+    text-transform: capitalize;
+}
+.breadcrumb 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+@media screen and (max-width: 768px){
+    .tabs 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .tabs .tab 
+    {
+        width: 100%;
+        margin: 3px;
+        height: 200px;
+        color: rgb(86, 179, 255);
+        border-radius: 10px;
+    }  
+    .breadcrumb li a
+    {
+       font-size: medium;
+       text-align: left;
+    }
+    .breadcrumb 
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .even-discuss 
+    {
+        background-color: #039676;
+        width: 90%;
+    }
+    .odd-discuss 
+    {
+        background-color: #0e6ca3;
+        width: 90%;
+    }
+
+}
