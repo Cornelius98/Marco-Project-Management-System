@@ -1,4 +1,4 @@
-# Scarlet Project Management System
+# Marco Project Management System
 
 ## Description
 
@@ -73,12 +73,12 @@ The installation procedure to run the project on your local machine is as follow
 ## Test
 
 The following accounts, can be used as test accounts;
-## User Account Login
-Email: testuser@gmail.com
+-User Account Login
+Email: testuser@gmail.com <br>
 Password: 1234
 
-## Administrator Account Login
-Email: testadmin@gmail.com
+-Administrator Account Login
+Email: testadmin@gmail.com <br>
 Password: 1234
 
 
