@@ -73,7 +73,7 @@ The installation procedure to run the project on your local machine is as follow
 ## Test
 
 The following accounts, can be used as test accounts; <br>
-`User Test Account Login`
+`User Test Account`
 <br>Email: testuser@gmail.com <br>
 Password: 1234 <br>
 
